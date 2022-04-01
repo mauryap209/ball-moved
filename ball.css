@@ -1,0 +1,20 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;   
+}
+#cursor{
+    position: absolute;
+    width: 3rem;
+    height: 3rem;
+    background-color: yellow;
+    transition: 0.5s;
+    border-radius: 50%;
+}
+h1{
+    color: teal;
+}
